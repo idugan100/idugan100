@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        li{
+            width:40em;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">Back</a>
+
+    <h3>Experience</h3>
+        <ul>
+            <!-- <li>Incoming Cyber Intern @ <a href="https://www.boozallen.com">Booz Allen Hamilton</a></li>
+            <ul>
+                <li>June 2024 - August 2024</li>
+            </ul> -->
+            <li>SWE Intern @ <a href="https://www.openprofessionalgroup.com" >Open Professional Group </a> </li>
+            <ul>
+                <li>January 2023 - Present</li>                
+                <li>Participated in the full software development lifecycle in a team of four developers with responsibilities including writing specifications, feature development, testing, writing documentation, participating in code reviews, resolving merge conflicts, and deploying code to production</li>
+                <li>Designed and implemented a new subsystem of the application to allow for automation of file transfers complete with error handling, reporting, logging, and configuration managment inside the application's UI</li>
+                <li>Let myself and another developer in the refactor of a critical component of the applications custom business logic, increasing functionality while decreasing coupling</li>
+                <li>Refactored the application’s error reporting features to collect all errors from the data set before generating a full report for the site administrator - reducing the number of times when data needed to be reviewed manually by 50%</li>
+            </ul>
+            <li>SWE Intern @ <a href="https://www.greenervolts.com"> GreenerVolts</a></li>
+            <ul>
+                <li>June 2022 - August 2022</li>
+                <li>Developed an LED upgrade estimation tool that allows users to enter existing light fixtures, and then automatically generates project estimates, energy savings documents, and places orders for replacement lights in the warehouse management system, saving three hours per project</li>
+                <li>Improved the user experience by optimizing a search feature reducing page loading time by 30 seconds and enhancing search functionality in response to user feedback</li>
+                <li>Leveraged relational database principles to remove 30,000 redundant records from the database resulting in a 15% reduction in query times</li>
+            </ul>
+        </ul>
+
+    <h3>Education</h3>
+    <h4>Computer Science Major at Salisbury University (3.84 GPA)</h4>
+    <ul>
+        <li>Computer Science</li>
+        <ul class="flex bg-gray-300 flex-wrap">
+            <li class="bg-blue-900 text-gray-100 rounded p-1 m-1">Introduction to Programming</li>
+            <li class="bg-blue-900 text-gray-100 rounded p-1 m-1">Computer Science 1</li>
+            <li class="bg-blue-900 text-gray-100 rounded p-1 m-1">Computer Sceince 2</li>
+            <li class="bg-blue-900 text-gray-100 rounded p-1 m-1">Advanced Algorithms</li>
+            <li class="bg-blue-900 text-gray-100 rounded p-1 m-1">Database Design and Implementation</li>
+            <li class="bg-blue-900 text-gray-100 rounded p-1 m-1">Theory of Computation</li>
+            <li class="bg-blue-900 text-gray-100 rounded p-1 m-1">Micro Computer Organization</li>
+            <li class="bg-blue-900 text-gray-100 rounded p-1 m-1">Systems Software</li>
+            <li class="bg-blue-900 text-gray-100 rounded p-1 m-1">Software Engineering 1</li>
+            <li class="bg-blue-900 text-gray-100 rounded p-1 m-1">Software Engineering 2</li>
+            <li class="bg-blue-900 text-gray-100 rounded p-1 m-1">Object Oriented Programming</li>
+        </ul>
+        <li>Math</li>
+        <ul class="flex bg-gray-300">
+            <li class="bg-purple-900 text-gray-100 rounded p-1 m-1">Calculus 1</li>
+            <li class="bg-purple-900 text-gray-100 rounded p-1 m-1">Calculus 2</li>
+            <li class="bg-purple-900 text-gray-100 rounded p-1 m-1">Calculus 3</li>
+            <li class="bg-purple-900 text-gray-100 rounded p-1 m-1">Discrete Mathematics</li>
+            <li class="bg-purple-900 text-gray-100 rounded p-1 m-1">Statistical Thinking</li>
+            <li class="bg-purple-900 text-gray-100 rounded p-1 m-1">Linear Algebra</li>
+            <li class="bg-purple-900 text-gray-100 rounded p-1 m-1">Mathemtatical Modeling and Applications</li>
+        </ul>
+    </ul>
+
+    <h3>Personal Projects</h3>
+    <ul>
+        <li><a href="salisburyanalytics.com" target="_blank">Salisbury Analytics</a></li>
+        <ul>
+            <li> Utilized publicly available, aggregate student grade data from Salisbury University to develop a full stack web application that hosts course reviews and grade visualizations that are filterable by course, professor, department and semester</li>
+            <li>Created an administrative panel with the ability to approve incoming reviews, import new grade data via file upload, scrape professor reviews using SerpAPI, and view usage statistics</li> 
+            <li>Integration with Stripe to provide a monthly subscription service for premium data visualization features</li>
+            <li> Over 65,000 total page visits to date and 7 registered users</li>
+        </ul>
+        <li><a href="https://www.salisbury.edu/news/article/2023-10-11-SU-Team-Places-3rd-in-HackUMBC-Competition" target="_blank">Finder</a></li>
+        <ul>
+            <li>Uses webcam and facial recognition technology to allow the user to set up a survalince netork that can moniter for a spefic person and alert the adminitrator if they have been found </li>
+            <li>Utilized SvelteKit, Google Cloud Storage, and Face++ to build the project in under 24 hours </li>
+            <li>Team was awarded 3rd place over all out of 47 teams at hackUMBC</li>
+        </ul>
+        <li><a href="www.bathmap.net" target="_blank"> Bathmap</a></li>
+        <ul>
+            <li>Collaborated with a team to build an API to host bathymetric mapping data collected by NOAA. The team also developed a map viewer to provide an interactive experience for non-technical users using the OpenLayers package</li>
+            <li>Designed database schema, created API endpoints, implemented user token based user/api authentication and deployed project using AWS LightSail</li>
+            <li>Extracted data from over 45 seperate databases availble for download from NOAA that contained over 4 million images</li>
+            <li>Built a developer facing API, token management portal and beginer tutorials - have gotten over 15,000 API requests to date </li>
+        </ul>
+        <li><a href="https://mango-bush-059d35e0f.azurestaticapps.net/login" target="_blank"> Salisbury Weather Forecasting Competition</a></li>
+        <ul>
+            <li>Automated the competetion reset procedure reducing turn around time by over a week</li>
+            <li>Added a feature that allowed an admin to upload a pdf file of past competion winners for normal users to view</li>
+            <li>Collaborated with previous developer to ensure smooth hand off and deployment of new features</li>
+            <li>Website supports a weather forcasting competion run by Salisbury Universities Geography deparmtn each semster for around 40 students</li>
+        </ul>
+    </ul>
+</body>
+</html>
