@@ -2,17 +2,14 @@
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=idugan100)](https://git.io/streak-stats)
 
-## Some of my work
-- [an open api for bathmetric maps and a interactive map viewer](https://www.bathmap.net)
+## Some of my open source work work
+- [a free api for bathmetric maps along with an interactive map viewer](https://www.bathmap.net)
 - [a SaaS data analytics tool for Salisbury University with statistics about courses, departments, and professors](https://www.salisburyanalytics.com)
-
-## My preferred tech stack
-- PHP using the Laravel framework
-- Tailwind CSS
-- HTMX
-- MySql
+- [a weather forecasting competition run by the Salisbury University Geography Department](https://mango-bush-059d35e0f.azurestaticapps.net/login)
 
 ## Education
 I am a Junior at Salisbury University and am studying computer science. I expect to graduate December of 2024.
+
+[Learn More About Me](https://isaacdugan.space)
 
 
