@@ -2,7 +2,7 @@
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=idugan100)](https://git.io/streak-stats)
 
-## Some of my open source work work
+## Some of my open source work
 - [a free api for bathmetric maps along with an interactive map viewer](https://www.bathmap.net)
 - [a SaaS data analytics tool for Salisbury University with statistics about courses, departments, and professors](https://www.salisburyanalytics.com)
 - [a weather forecasting competition run by the Salisbury University Geography Department](https://bit.ly/sudogg-forecast-contest)
