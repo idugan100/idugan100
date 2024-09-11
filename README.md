@@ -1,5 +1,3 @@
-### My name is Isaac Dugan and I am an aspiring software engineer
-
 [![GitHub Streak](https://streak-stats.demolab.com/?user=idugan100)](https://git.io/streak-stats)
 
 ## Some of my open source work
